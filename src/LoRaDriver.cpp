@@ -4,7 +4,6 @@ LoRaDriver::LoRaDriver(HardwareSerial &serial, int pinReset)
     : lora(serial), rstPin(pinReset) {}
 
 void LoRaDriver::begin(long baud) {
-    lora.begin(baud, SERIAL_8N1);
     pinMode(rstPin, OUTPUT);
     resetModule();
 }
