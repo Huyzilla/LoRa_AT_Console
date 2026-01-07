@@ -6,7 +6,7 @@
 // #define USE_OLED // Bỏ ghi chú dòng này nếu bạn CÓ sử dụng màn hình OLED
 
 // --- CHỌN CHẾ ĐỘ HOẠT ĐỘNG ---
-#define TRANSMITTER
+#define TRANSMITTERưt4
 // #define RECEIVER
 
 // --- CHỌN THIẾT BỊ ---
